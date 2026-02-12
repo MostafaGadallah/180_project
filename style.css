@@ -372,3 +372,11 @@ nav ul li a:hover::after {
         font-size: 2.5rem;
     }
 }
+
+.level-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2d3748;
+    margin: 4rem 0 3rem;
+    font-weight: 500;
+}
