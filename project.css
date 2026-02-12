@@ -4,6 +4,7 @@ img {
     height: 200px;
     object-fit: cover;
 }
+
 .prog {
     width: 100%;
     max-width: 400px;
@@ -11,12 +12,14 @@ img {
     height: 250px;
     object-fit: cover;
 }
+
 .opr {
     width: 100%;
     max-width: 400px;
     height: 200px;
     object-fit: cover;
 }
+
 .math {
     width: 100%;
     max-width: 400px;
@@ -24,43 +27,62 @@ img {
     height: 250px;
     object-fit: cover;
 }
+
 .all_years {
-    display: flex;       
-    gap: 20px;           
+    display: flex;
+    gap: 20px;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
+
 .course-title {
     padding: 60px;
     color: white;
     font-weight: bold;
 }
-.year1 .course-title { background-color: #ff6b81; }
-.year2 .course-title { background-color: #1e90ff; }
-.year3 .course-title { background-color: #2ed573; }
-.course 
-{
+
+.year1 .course-title {
+    background-color: #ff6b81;
+}
+
+.year2 .course-title {
+    background-color: #1e90ff;
+}
+
+.year3 .course-title {
+    background-color: #2ed573;
+}
+
+.course {
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .course-content {
     background-color: white;
     padding: 15px;
 }
-.year1, .year2, .year3 {
+
+.year1,
+.year2,
+.year3 {
     display: flex;
-    width: 100%; 
+    width: 100%;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-.year1 .course, .year2 .course, .year3 .course {
+
+.year1 .course,
+.year2 .course,
+.year3 .course {
     flex: 1;
     min-width: 250px;
 }
+
 h2 {
     text-align: center;
     color: black;
@@ -69,24 +91,27 @@ h2 {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color:black;
+    background-color: black;
     color: white;
     margin-top: 40px;
     word-spacing: 15px;
     cursor: pointer;
 
 }
+
 h1 {
     text-align: center;
     margin-bottom: 30px;
     color: rgb(111, 8, 8);
 }
+
 .featured-courses {
     text-align: center;
     width: 100%;
     margin: 0 auto;
     color: black;
 }
+
 p {
     text-align: center;
     padding: 0 20px;
@@ -94,4 +119,9 @@ p {
     font-size: 1.5rem;
     line-height: 2.2;
     color: rgb(31 31 31);
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
