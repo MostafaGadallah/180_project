@@ -31,7 +31,9 @@ h2 {
 }
 
 
-.year1, .year2, .year3 {
+.year1,
+.year2,
+.year3 {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -45,7 +47,7 @@ h2 {
     border-radius: 15px;
     overflow: hidden;
     background: white;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
 
@@ -60,9 +62,17 @@ h2 {
     font-weight: bold;
 }
 
-.year1 .course-title { background: linear-gradient(135deg,#ff6b81,#ff4757); }
-.year2 .course-title { background: linear-gradient(135deg,#1e90ff,#3742fa); }
-.year3 .course-title { background: linear-gradient(135deg,#2ed573,#1dd1a1); }
+.year1 .course-title {
+    background: linear-gradient(135deg, #ff6b81, #ff4757);
+}
+
+.year2 .course-title {
+    background: linear-gradient(135deg, #1e90ff, #3742fa);
+}
+
+.year3 .course-title {
+    background: linear-gradient(135deg, #2ed573, #1dd1a1);
+}
 
 .course-content {
     padding: 15px;
@@ -86,7 +96,9 @@ img {
     margin-bottom: 10px;
 }
 
-.prog, .math, .opr {
+.prog,
+.math,
+.opr {
     padding-left: 0;
 }
 
@@ -104,6 +116,11 @@ h1 {
     justify-content: center;
     gap: 15px;
     margin-top: 15px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: unset;
 }
 
 .buttons button {
@@ -137,4 +154,10 @@ h1 {
     color: white;
     margin-top: 50px;
     word-spacing: 15px;
+}
+
+.about-section p {
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
 }
