@@ -156,6 +156,15 @@ h1 {
     word-spacing: 15px;
 }
 
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a.current {
+    color: #667eea;
+}
+
 .about-section p {
     padding: 50px;
     text-align: center;
