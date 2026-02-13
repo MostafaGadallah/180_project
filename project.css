@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
 .about-intro {
     text-align: center;
     font-size: 1.3rem;
@@ -23,9 +24,10 @@
     text-decoration: underline;
 
 }
-.about-image{
+
+.about-image {
     margin-top: 20px;
-    width:50%;
+    width: 50%;
     height: 100%;
     float: right;
 }
@@ -40,7 +42,9 @@ h2 {
 }
 
 
-.year1, .year2, .year3 {
+.year1,
+.year2,
+.year3 {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -54,7 +58,7 @@ h2 {
     border-radius: 15px;
     overflow: hidden;
     background: white;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
 
@@ -69,9 +73,17 @@ h2 {
     font-weight: bold;
 }
 
-.year1 .course-title { background: linear-gradient(135deg,#ff6b81,#ff4757); }
-.year2 .course-title { background: linear-gradient(135deg,#1e90ff,#3742fa); }
-.year3 .course-title { background: linear-gradient(135deg,#2ed573,#1dd1a1); }
+.year1 .course-title {
+    background: linear-gradient(135deg, #ff6b81, #ff4757);
+}
+
+.year2 .course-title {
+    background: linear-gradient(135deg, #1e90ff, #3742fa);
+}
+
+.year3 .course-title {
+    background: linear-gradient(135deg, #2ed573, #1dd1a1);
+}
 
 .course-content {
     padding: 15px;
@@ -95,7 +107,9 @@ img {
     margin-bottom: 10px;
 }
 
-.prog, .math, .opr {
+.prog,
+.math,
+.opr {
     padding-left: 0;
 }
 
@@ -144,6 +158,11 @@ h1 {
     padding: 20px;
     background-color: black;
     color: white;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     word-spacing: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }
